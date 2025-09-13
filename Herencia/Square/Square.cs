@@ -1,0 +1,22 @@
+﻿using Geometry;
+namespace Geometry {};
+
+public class Square : GeometricFigure
+{
+    private double _a;
+
+    public double A
+    {
+        get => _a;
+        set => _a = value > 0 ? value : throw new ArgumentException("Side must be positive");
+    }
+
+    public Square(string name, double a) : base(name)
+    {
+        A = a;
+    }
+
+    public override double GetArea() => A * A;
+    public override double GetPerimeter() => 4 * A;
+}
+

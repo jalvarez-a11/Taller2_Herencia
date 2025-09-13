@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Core\Geometry.csproj", "{88A8949C-7B1F-405E-A21E-3D48959D2434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herencia.console", "Herencia.console\Herencia.console.csproj", "{4930FB20-5C10-4FDE-8E6B-BFB73433648D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A8949C-7B1F-405E-A21E-3D48959D2434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A8949C-7B1F-405E-A21E-3D48959D2434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A8949C-7B1F-405E-A21E-3D48959D2434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A8949C-7B1F-405E-A21E-3D48959D2434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4930FB20-5C10-4FDE-8E6B-BFB73433648D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4930FB20-5C10-4FDE-8E6B-BFB73433648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4930FB20-5C10-4FDE-8E6B-BFB73433648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4930FB20-5C10-4FDE-8E6B-BFB73433648D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21B2B791-1544-488F-B9CE-099DB0C53F72}
+	EndGlobalSection
+EndGlobal
